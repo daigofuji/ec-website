@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Keiichi Yoshida -- Founder & CEO -- 
+    Jesper Pedersen -- Design
+    Daigo Fujiwara -- Website Coding HTML/CSS/JS -- @DaigoFuji
+
+# THANKS
+
+    
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    Zurb Foundation
+    Sass/Grunt 
