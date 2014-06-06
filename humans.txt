@@ -3,9 +3,9 @@
 
 # TEAM
 
-    Keiichi Yoshida -- Founder & CEO -- 
+    Keiichi Yoshida -- Founder & CEO
     Jesper Pedersen -- Design
-    Daigo Fujiwara -- Website Coding HTML/CSS/JS -- @DaigoFuji
+    Daigo Fujiwara  -- Website Coding HTML/CSS/JS -- @DaigoFuji
 
 # THANKS
 
@@ -13,7 +13,7 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, JS
     Normalize.css, jQuery, Modernizr
     Zurb Foundation
-    Sass/Grunt 
+    Sass/Grunt, bower 
