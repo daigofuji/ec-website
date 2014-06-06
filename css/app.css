@@ -1922,6 +1922,9 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+.everconnect-brand, .body-headline, .body-text {
+  transition: all 0.3s ease; }
+
 body {
   background: url(../img/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
