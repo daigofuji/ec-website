@@ -19,12 +19,6 @@ body {
   margin: $space-large auto $space-large; 
   max-width: em-calc(160);
 
-  @media #{$medium-up} {
-    margin: $space-large*3 auto $space-large;     
-  }
-  @media #{$large-up} {
-    margin: $space-large*4 auto $space-large;
-  }
 }
 .body-headline,
 .body-text {
@@ -32,9 +26,6 @@ body {
   margin-bottom: $space-small;
   br {
     display: none;
-    @media #{$medium-up} {
-      display: block;   
-    }
   }
 }
 
