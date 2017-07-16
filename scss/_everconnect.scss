@@ -1,32 +1,77 @@
 $space-small: 1em;
 $space-medium: 2em;
 $space-large: 3em;
+$ec-blue: #2d8cdd;
 
 %transition-all {
     transition: all .3s ease;
 }
 
-body { 
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.ec-header {
+  padding: 20px;
 }
 
-.everconnect-brand {
-  @extend %transition-all;
-  margin: $space-large auto $space-large; 
-  max-width: em-calc(160);
-
-}
-.body-headline,
-.body-text {
-  @extend %transition-all;
-  margin-bottom: $space-small;
-  br {
+//hide menu button 
+@media screen and (max-width: 360px) {
+  .hide-for-xsmall {
     display: none;
   }
 }
 
+.ec-callout {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-position: 50% 50%;
+  background-size: cover;
+  &.callout { 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 30px solid $ec-blue;
+  }
+  &.ec-bg1 {
+    background-image: url(/img/bg1.jpg);
+  }
+  &.ec-bg2 {
+    background-image: url(/img/bg2.jpg);
+  }  
+  &.ec-bg3 {
+    background-image: url(/img/bg3.jpg);
+  }
+  h2 {
+    font-weight: 600;
+  }
 
+}
+
+.ec-section {
+  padding: 40px 0;
+
+  h5 {
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  img.thumbnail {
+    box-shadow: none;
+  }
+}
+
+.ec-section--blue {
+  background-color: $ec-blue;
+  color: #ffffff;
+}
+
+.ec-footer {
+  padding: 40px 10px;
+  h5 { 
+    font-size: 16px;
+  }
+}
+
+//helpers 
+.margin-bottom-large {
+  margin-bottom: 40px;
+}

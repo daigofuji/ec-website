@@ -24,50 +24,192 @@
     <meta name="twitter:image" content="http://everconnect.jp/img/everconnect.png">
   
     <!-- Google Font -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,500" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css" />
   </head>
 
 
   <body>
-    <!--[if lt IE 8]>
-        <div class="row">
-          <div class="small-12 columns text-center">
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-            <figure class="everconnect-brand">
-                <img src="img/everconnect.png">
-            </figure>
-          </div>
+        <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+          <!-- left off-canvas markup -->
+          
+          <ul class="menu vertical">
+            <li><a href="#whoweare">WHO WE ARE</a></li>
+            <li><a href="#product">OUR PRODUCT</a></li>
+            <li><a href="#team">OUR TEAM</a></li>
+          </ul>
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+              <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-    <![endif]-->
 
-    
-    <section role="main">
+        <div class="off-canvas-content" data-off-canvas-content>
+        <!-- Fire Off-canvas -->
+          <header class="text-center ec-header">
+            <button type="button" class="button--no-style float-left hide-for-xsmall" data-toggle="offCanvasLeft"><img src="img/menu.png" alt="Open Menu"></button>
+            <img src="img/everconnect-logo.png" alt="EVERCONNECT">
+          </header>
 
-      <div class="row">
-        <div class="small-12 columns text-center">
+            <section role="main">
+
+              <div class="callout large ec-callout ec-bg1">
+                <div class="grid-x">
+                  <div class="cell small-12 text-center">
+                    <h2>Connectig People Through Music</h2>  
+                  </div>       
+                </div>
+              </div>
+
+              <section class="ec-section grid-x" id="whoweare">
+                <div class="cell small-10 small-offset-1 medium-6 medium-offset-3 text-center">
+                  <h1>WHO WE ARE</h1> 
+                  <p>EVERCONNECT is evolving the way people connect.</p>
+                  <p>By seamlessly connecting people and people to information through our products, we make life simple, easier and opening up more possibilities for you.</p>
+                  <p>From our founding in June 2014, EVERCONNECT will expand global presence continues to bring people and information closer.</p>
+                </div>
+              </section>
+
+              <div class="callout large ec-callout ec-bg2">
+                <div class="grid-x">
+                  <div class="cell small-12 text-center">
+                    <h2>Music Connects the World.</h2>  
+                  </div>       
+                </div>
+              </div>
 
 
-          <figure class="everconnect-brand">
-            <img src="img/everconnect.png" class="logo">
-          </figure>
-          <h4 class="body-headline">EVERCONNECT is evolving the way people connect.</h4>
+              <section class="ec-section" id="product">
+                <div class="grid-x">
+                  <div class="cell small-12 text-center">
+                  <h1>OUR PRODUCT</h1>
+                  </div>
 
-          <p class="body-text">By seamlessly connecting people and people to information through our products,<br>
-            we make life simple, easier and open up more possibilities for you.</p>
+                  <div class="cell medium-offset-4 medium-4 text-center">
+                    <img class="thumbnail" src="img/ZEAL-logo.png" alt="ZEAL">
+                    <p>Zeal is a music social communication platform and lets you discover and connect with people who share your taste in music.</p>
+                  </div>
+                </div>
+                <div class="grid-x">
+                  <div class="cell medium-4 text-center">
+                    <img class="thumbnail" src="img/connect.png">
+                    <h5>CONNECT</h5>
+                    <p>with people who love<br>the same music you do.</p>
+                  </div>
+                  <div class="cell medium-4 text-center">
+                    <img class="thumbnail" src="img/discover.png">
+                    <h5>DISCOVER</h5>
+                    <p>new music<br>you might like.</p>
+                  </div>
+                  <div class="cell medium-4 text-center">
+                    <img class="thumbnail" src="img/share.png">
+                    <h5>SHARE</h5>
+                    <p>your favorite music<br>with others.</p>
+                  </div>
+                </div>
 
-          <p class="body-text">From our founding in February 2014, EVERCONNECT will expand its global presence<br> and continue to bring people and information closer</p>
+                <div class="grid-x">
+                  <div class="cell small-offset-4 small-4 medium-offset-5 medium-2 text-center">
+                    <img src="img/appstore-button.png" alt="">
+                  </div>
+                </div>
 
-          <p class="body-text">Contact us at <a href="mailto:contact@everconnect.jp?subject=Mail from EVERCONNECT.jp">contact@everconnect.jp</a></p>
-
-        </div>
-      </div>
-
-    </section>
+              </section>
 
 
+              <div class="callout large ec-callout ec-bg3">
+                <div class="grid-x">
+                  <div class="cell small-12 text-center">
+                     <h2>Passion for building products that improve your life.</h2>  
+                  </div>       
+                </div>
+              </div>
+
+              <section class="ec-section" id="team">
+
+                <div class="grid-x">
+                  <div class="cell small-10 small-offset-1 medium-6 medium-offset-3  text-center">
+                  <h1>OUR TEAM</h1>
+                  <p class="margin-bottom-large">The team is comprised of mobile technology experts, UI/UX designers, software engineers, music industry experts, worldwide business development experts with a passion for building products that improve and simplify your life.</p>
+                  </div>
+                </div>
+
+                <div class="grid-x">
+                  <div class="small-4 medium-2 cell text-center">
+                    <img class="thumbnail" src="img/Portrait_Keiichi.jpg">
+                    <h5>Keiichi Yoshida</h5>
+                    <p><em>CEO &amp; Founder</em></p>
+                  </div>
+
+                  <div class="small-4 medium-2 cell text-center">
+                    <img class="thumbnail" src="img/Portrait_Shunichi.jpg">
+                    <h5>Shunichi Mori </h5>
+                    <p><em>Chief Music Officer</em></p>
+                  </div>
+
+                  <div class="small-4 medium-2 cell text-center">
+                    <img class="thumbnail" src="img/Portrait_Toru.jpg">
+                    <h5>Toru Fukuda </h5>
+                    <p><em>Vice President Worldwide Sales</em></p>
+                  </div>
+
+                  <div class="small-4 medium-2 cell text-center">
+                    <img class="thumbnail" src="img/Portrait_Jesper.jpg">
+                    <h5>Jesper Pedersen </h5>
+                    <p><em>Chief Design Officer</em></p>
+                  </div>
+
+                  <div class="small-4 medium-2 cell text-center">
+                    <img class="thumbnail" src="img/Portrait_Kaori.jpg">
+                    <h5>Kaori Kunitani</h5>
+                    <p><em>Chief Legal Officer </em></p>
+                  </div>
+
+                  <div class="small-4 medium-2 cell text-center">
+                    <img class="thumbnail" src="img/Portrait_Naoyoshi.jpg ">
+                    <h5>Naoyoshi Yoshida</h5>
+                    <p><em>General Counsel</em></p>
+                  </div>
+                </div>
+              <div>
+
+            </section>
+            
+            <section class="ec-section ec-section--blue" id="location">
+              <div class="grid-x ">
+                <div class="cell small-10 small-offset-1 medium-6 medium-offset-3  text-center">
+
+                <h4>OFFICE LOCATION</h4>
+                <p>Nigeria Embassy Bldg. 2F, 3-6-1 Toranomon, Minato-ku, Tokyo, Japan</p>
+                <h4>CONTACT</h4> 
+                <p>contact@everconnect.jp</p>
+                </div>
+              </div>
+            </section>
+
+            <footer class="secondary ec-footer">
+              <div class="grid-x">
+                <div class="small-6 medium-4 cells">
+                  <h5>2017 © EVERCONNECT</h5>
+                </div>
+                <div class="small-6 medium-3 medium-offset-5 cells">
+                  <ul class="menu vertical">
+                    <li><a href="#whoweare">WHO WE ARE </a></li>
+                    <li><a href="#product">OUR PRODUCT</a></li>
+                    <li><a href="#team"> OUR TEAM</a></li>
+                  </ul>
+                </div>
+              </div>
+            </footer>
+
+
+          </section>
+          
+        </div><!-- /.off-canvas-content -->
+      </div><!-- /.off-canvas-wrapper-inner -->
+    </div><!-- /.off-canvas-wrapper -->
 
 
 
