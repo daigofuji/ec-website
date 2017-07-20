@@ -1849,7 +1849,7 @@ h1 {
   margin-bottom: 0.5rem; }
 
 h2 {
-  font-size: 1.55556rem;
+  font-size: 1.88889rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -1882,7 +1882,7 @@ h6 {
   h1 {
     font-size: 1.66667rem; }
   h2 {
-    font-size: 1.77778rem; }
+    font-size: 2.11111rem; }
   h3 {
     font-size: 1.44444rem; }
   h4 {
@@ -5101,7 +5101,12 @@ a.thumbnail {
         flex-direction: column-reverse; } }
 
 .ec-header {
-  padding: 20px; }
+  padding: 10px 20px; }
+  .ec-header .header-logo {
+    margin: 0 auto;
+    width: 200px; }
+  .ec-header button {
+    margin-top: 12px; }
 
 @media screen and (max-width: 360px) {
   .hide-for-xsmall {
@@ -5130,22 +5135,39 @@ a.thumbnail {
   .ec-callout.ec-bg3 {
     background-image: url(/img/bg3.jpg); }
   .ec-callout h2 {
-    font-weight: 600; }
+    font-weight: 300;
+    text-rendering: optimizeLegibility; }
 
 .ec-section {
   padding: 40px 0; }
   .ec-section h5 {
     font-weight: 600;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-rendering: optimizeLegibility; }
   .ec-section img.thumbnail {
     box-shadow: none; }
 
+#team .small-4 h5 {
+  font-size: 18px; }
+
+#team .small-4 p {
+  font-size: 16px; }
+
 .ec-section--blue {
+  padding: 30px 0;
   background-color: #2d8cdd;
   color: #ffffff; }
+  .ec-section--blue a {
+    color: #ffffff; }
+  .ec-section--blue h5 {
+    font-size: 16px; }
+  .ec-section--blue p {
+    margin-bottom: 0;
+    font-size: 16px; }
 
 .ec-footer {
-  padding: 40px 10px; }
+  padding: 20px 10px 60px;
+  font-size: 16px; }
   .ec-footer h5 {
     font-size: 16px; }
 

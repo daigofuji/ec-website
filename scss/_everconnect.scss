@@ -8,7 +8,14 @@ $ec-blue: #2d8cdd;
 }
 
 .ec-header {
-  padding: 20px;
+  padding: 10px 20px;
+  .header-logo {
+    margin: 0 auto;
+    width: 200px;
+  }
+  button {
+    margin-top: 12px;
+  }
 }
 
 //hide menu button 
@@ -42,7 +49,8 @@ $ec-blue: #2d8cdd;
     background-image: url(/img/bg3.jpg);
   }
   h2 {
-    font-weight: 600;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
   }
 
 }
@@ -53,19 +61,39 @@ $ec-blue: #2d8cdd;
   h5 {
     font-weight: 600;
     margin-bottom: 0;
+    text-rendering: optimizeLegibility;
   }
   img.thumbnail {
     box-shadow: none;
   }
 }
 
+#team {
+  .small-4 {
+    h5 { font-size: 18px; }
+    p { font-size: 16px; }
+  }
+}
+
 .ec-section--blue {
+  padding: 30px 0;
   background-color: $ec-blue;
   color: #ffffff;
+  a {
+    color: #ffffff;
+  }
+  h5 { 
+    font-size: 16px;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
 }
 
 .ec-footer {
-  padding: 40px 10px;
+  padding: 20px 10px 60px;
+  font-size: 16px;
   h5 { 
     font-size: 16px;
   }
