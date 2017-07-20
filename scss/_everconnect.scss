@@ -72,6 +72,11 @@ $ec-blue: #2d8cdd;
   .small-4 {
     h5 { font-size: 18px; }
     p { font-size: 16px; }
+    img.thumbnail {
+      box-shadow: none;
+      width: 80px;
+      height: 80px;
+    }
   }
 }
 

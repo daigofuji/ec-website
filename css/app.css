@@ -5153,6 +5153,11 @@ a.thumbnail {
 #team .small-4 p {
   font-size: 16px; }
 
+#team .small-4 img.thumbnail {
+  box-shadow: none;
+  width: 80px;
+  height: 80px; }
+
 .ec-section--blue {
   padding: 30px 0;
   background-color: #2d8cdd;
